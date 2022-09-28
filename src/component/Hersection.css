@@ -1,0 +1,319 @@
+body{
+   
+    text-align: center;
+    box-sizing: border-box;
+
+
+}
+
+h1{
+    margin-top: 2%;
+}
+
+form{
+
+    /* border:1px solid red; */
+    margin-top: 5%;
+    width: 100%;
+  
+     margin-bottom: 5%;
+    color: rgb(38, 243, 113);
+    background-color: rgb(250, 239, 247);
+    padding-bottom: 2%;
+
+}
+
+
+
+form>div{
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* border: 1px solid black; */
+
+}
+ 
+
+
+
+
+/* =====================================form first basic box============================ */
+.what>div{
+    text-align: left;
+    margin-top: 2%;
+    max-width: 400px;                    /* In order for the flex wrap to work you have to define max width and min width */
+    min-width: 300px;
+}
+
+
+.what>div:nth-child(1){
+            
+    background-color: rgba(194, 169, 244,0.8);
+
+    border-radius: 25px;
+    width: 30% ;
+    height: 320px;
+    padding-top: 1.7%;
+    padding-left: 2%;
+    color: white;
+
+
+
+
+    
+}
+
+.Basics>div{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.Basics>div>input,
+.Basics>div>select{
+
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 80%;
+    padding-left: 4%;
+    color: rgb(84, 83, 83);
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+   
+    
+}
+.Basics>div>label{
+    margin-left: 4%;
+    margin-bottom: 0.6%;
+    color: #63636f;
+    font-weight: 500;
+    visibility: visible;
+}
+/* 
+.Basics>div>input:focus ~ label,
+.Basics>div>input:not(:placeholder-shown) ~ label{
+    font-size: 1em;
+    visibility: visible;
+    transition: transform 0.5s ease-out;
+} */
+
+
+.Basics>div>input::placeholder{
+    text-align: center;
+}
+
+/* ============================================================== */
+
+
+
+/* ==========================form second div Education box========================== */
+
+.Education{
+
+
+    background-color: rgba(245, 197, 210,0.8) ;
+
+    border-radius: 25px;
+    width: 30% ;
+    height: 320px;
+    padding-top: 1.7%;
+    padding-left: 2%;
+    color: white;
+}
+
+.Education>div> input{
+
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 80%;
+    padding-left: 4%;
+    color: rgb(84, 83, 83);
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+   
+    
+}
+
+.Education>div>label{
+    margin-left: 4%;
+    margin-bottom: 0.6%;
+    color: #63636f;
+    font-weight: 500;
+    visibility: visible;
+}
+
+
+/* ============================================================================ */
+
+
+/* =============================form div contact box============================== */
+
+
+.contacts{
+    background-color: rgba(254, 170, 118, 0.8);
+
+    border-radius: 25px;
+    width: 30% ;
+    height: 320px;
+    padding-top: 1.7%;
+    padding-left: 2%;
+    color: white;
+}
+
+.contacts>div> input{
+
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 80%;
+    padding-left: 4%;
+    color: rgb(84, 83, 83);
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+   
+    
+}
+
+.contacts>div>label{
+    margin-left: 4%;
+    margin-bottom: 0.6%;
+    color: #63636f;
+    font-weight: 500;
+    visibility: visible;
+}
+
+
+
+/*=============================================================================== */
+
+
+/*=====================================description box of form=========================*/
+
+
+
+.desc{
+    background-color: rgba(56, 182, 255,0.5);
+
+    border-radius: 25px;
+    width: 30% ;
+    height: fit-content;
+    padding-bottom: 1.7%;
+    padding-top: 1.8%;
+    padding-left: 2%;
+    color: white;
+}
+
+.desc>div> input, .desc>div> textarea{
+
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    height: 45px;
+    width: 80%;
+    padding-left: 4%;
+    color: rgb(84, 83, 83);
+    margin-bottom: 4%;
+    margin-top: 0.5%;
+   
+    
+}
+
+.desc>div>label{
+    margin-left: 4%;
+    margin-bottom: 0.6%;
+    color: #63636f;
+    font-weight: 500;
+    visibility: visible;
+}
+
+
+
+
+
+/* ================================================================================= */
+
+
+/* =============================================================the Image box last div of form================================================================= */
+
+.upload{
+    background-color: rgba(122, 147, 224,0.3); 
+    /* border: 1px solid rgb(167, 167, 167);  */
+    
+    border-radius: 25px;
+    width: 30% ;
+    height: fit-content;
+    
+ 
+    color: white;
+}
+
+.svg{
+    margin: auto;
+    width: 40%;
+    min-width:70%;
+    border: 2px dashed rgb(135, 134, 134);
+    height: 200px;
+    margin-top: 8%;
+    border-radius: 5px;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.19), -6px -6px 10px rgb(231, 231, 254);
+    cursor: pointer;
+}
+
+.btnup{
+
+    width: 70%;
+    margin-top: 2%;
+    height: 60px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 6%;
+    border: 3px solid rgb(255, 166, 0);
+    background-color: #f2f3f7;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.btnup:hover{
+     background: linear-gradient(218deg, rgb(255, 166, 0),rgb(235, 125, 23));
+     color: white;
+}
+.btnup:active{
+     transform: scale(0.98);
+}
+
+/* ======================================================================================================================================== */
+
+
+/* // Submit button makeup========================== */
+ input[type="button"]{
+
+
+        width: 20%;
+        min-width: 230px;
+        height: 60px;
+        border:1px 0px 0.5px 1px ;
+        border-radius: 10px;
+        outline: none !important;
+        margin-top: 2%;
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(19, 18, 18);
+        font-family: 'Poppins', sans-serif; 
+        background: linear-gradient(330deg,  #5b0eeb  0%, #5dc7fc  50%, #8af3ff 100%);
+
+}
+ 
+
+
+
+

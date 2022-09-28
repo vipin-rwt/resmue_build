@@ -1,0 +1,370 @@
+.container{
+
+background-color:#23092b;
+width:650px;
+height:fit-content;
+
+margin-top: 5%;
+color: white;
+box-sizing: border-box;
+text-align: center;
+padding: 0px;
+}
+
+
+/* ===================================== top content ===================================== */
+.topContent{
+   
+    /* border:1px  solid wheat; */
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    gap:12%;
+  
+
+
+}
+
+.topContent>.imagediv{
+    width: 140px;
+    height: 100%;
+     border: 1px solid white;
+    margin-left: 6% ;
+    background-color: rgb(252, 248, 244);
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+
+.imagediv>img{
+    border-radius: 15px;
+    bottom:10px;
+    width: 90%;
+    height: 82%;
+    margin-top: 18%;
+}
+   
+
+.name1{
+    /* border: 1px solid yellow; */
+    width: fit-content;
+    height: fit-content;
+    align-self: center;
+    position: relative;
+
+}
+
+.name1>p:nth-child(1){
+
+       font-size:2em;
+       line-height: 2pt;
+       letter-spacing: 2px;
+    
+
+}
+
+.name1>p:nth-child(1)::after{
+    
+    content: '';
+    display: block;
+    width:100%;
+  
+    height: 2px;
+    margin-top: 25px;
+   
+    position:absolute;
+    background-color:grey;
+
+
+
+}
+.name1>p:nth-child(n+2){
+        
+        font-size: 1.2em;
+        line-height: 2px;
+       
+       
+}
+
+
+/* =================================================================================================================== */
+
+.bottomContent{
+     
+    /* border: 1px solid pink; */
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+   
+
+
+}
+
+
+
+/* ================================================Experience==================== */
+
+.company{
+
+      background-color: rgb(252, 248, 244);
+      margin-top: 2%;
+      border-top-right-radius:30px ;
+      color:black;
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-right: 2%;
+      width: 55%;
+
+}
+
+.company>h2:nth-child(1){
+
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: rgb(62, 62, 62);
+    margin-bottom: 5%;
+
+}
+.company>h2:nth-child(1)::after{
+    content:'';
+    position: absolute;
+    width: 140px;
+    height: 2px;
+    margin-top:28px;
+    margin-left: -139px;
+    background-color:rgb(35, 32, 32) ;
+}
+
+h2{
+
+    font-size: 0.9em;
+    font-weight: 700;
+    color: rgb(64, 63, 63);
+    text-align: left;
+
+}
+
+.company>ul>li>p{
+
+    text-align: left;
+    font-size: 0.8em;
+}
+
+.company>ul>li{
+    margin-bottom: 25%;
+}
+
+/* ============================================================================================= */
+
+
+/* =================================================Contacts======================================== */
+
+
+
+
+
+.conEdu{
+ 
+    /* border: 1px solid white;  */
+    margin-top: 6%;
+    text-align: left;
+    left: -30px; 
+    width: 40%;
+
+
+
+
+}
+
+.contact>p:nth-child(1){
+       
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(254, 254, 254);
+
+
+}
+
+.contact>p:nth-child(1)::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    margin-left: -105px;
+    margin-top:28px;
+    background-color: rgb(206, 197, 208);
+
+
+
+}
+
+.contact>ul{
+    margin-left: -30px;
+    list-style: none;
+   
+}
+.contact>ul>li{
+    margin-bottom: 3%;
+}
+.contact>ul>li>p{
+    display: inline;
+    font-size: 0.85em;
+}
+
+
+
+.education>p:nth-child(1){
+       
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(254, 254, 254);
+
+
+}
+
+
+.education>p:nth-child(1)::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    margin-left: -113px;
+    margin-top:28px;
+    background-color: rgb(206, 197, 208);
+
+
+
+}
+
+.education>ul>li{
+
+    list-style: none;
+    margin-left: -15%;
+    margin-bottom: 20%;
+    
+}
+
+.education>ul>li>p{
+      
+    line-height: 8px;
+
+}
+
+.education>ul>li>p:nth-child(1){
+   
+    font-weight: 500;
+}
+
+.education>ul>li>p:nth-child(n+2){
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.expertise>p:nth-child(1){
+       
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(254, 254, 254);;
+
+
+}
+
+
+.expertise>p:nth-child(1)::after{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 2px;
+    margin-left: -108px;
+    margin-top:28px;
+   background-color: rgb(206, 197, 208);
+
+
+
+}
+
+.expertise>ul{
+
+    text-align: left;
+    margin-left: -5%;
+}
+
+
+
+/* ====================================================================================================== */
+
+
+.bottomContent:after{
+  content: '';
+  width: 45px;
+  min-height: 100%;
+ 
+  background: var(--check-primary, #fcf8f4);
+ 
+  border-top-left-radius: 50px;
+  
+
+}
+
+.colorbox{
+    height: 200px;
+    text-align: center;
+    display:flex;
+    flex-direction: row;
+    gap:5%;
+    background-color: rgb(251, 244, 219);
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+input[type="color"]{
+
+   outline: none;
+  border: none;
+   width: 70px;
+   height: 65px;
+  margin-left: 5%;
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+
+
+
+}
+
+input[type="color"]::-webkit-color-swatch{
+
+border-radius:50%;
+background: none;
+
+
+}
+
+
+#btnprint{
+    margin-left: 80%;
+    margin-top: 2%;
+    width: 10%;
+    min-width: 150px;
+    height: 50px;
+    border: 0px;
+    border-radius: 10px;
+    outline: none !important;
+    margin-top: 2%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(19, 18, 18);
+    font-family: 'Poppins', sans-serif; 
+    background: linear-gradient(330deg,  #5b0eeb  0%, #5dc7fc  50%, #8af3ff 100%);
+    color: rgb(31, 3, 59);
+
+}
